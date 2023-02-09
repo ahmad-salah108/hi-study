@@ -1,0 +1,116 @@
+*{
+  direction: rtl;
+}
+
+/*-----------------------
+    Service Area  
+------------------------*/
+.service__style--1{
+  text-align: right;
+}
+
+/*-------------------------------
+    Layout Presentation
+-------------------------------*/
+.advance-tab-button-1 .tab-button-list .tab-button::before{
+  left: auto;
+  right: 0;
+}
+
+/*----------------------
+    Rbt List Style  
+------------------------*/
+.plan-offer-list li i{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* ------------------------------
+    Testimonial Style Two 
+-------------------------------- */
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(1750px);
+    transform: translateX(1750px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-moz-keyframes scroll {
+  0% {
+    -moz-transform: translateX(1750px);
+    transform: translateX(1750px);
+  }
+  to {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(1750px);
+    -moz-transform: translateX(1750px);
+    transform: translateX(1750px);
+  }
+  to {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes scrollLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(1750px);
+    transform: translateX(1750px);
+  }
+}
+@-moz-keyframes scrollLeft {
+  0% {
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -moz-transform: translateX(1750px);
+    transform: translateX(1750px);
+  }
+}
+@keyframes scrollLeft {
+  0% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(1750px);
+    -moz-transform: translateX(1750px);
+    transform: translateX(1750px);
+  }
+}
+
+/* ------------------------------
+    bootstrap 
+-------------------------------- */
+@media (min-width: 992px){
+  .offset-lg-1 {
+      margin-left: initial;
+      margin-right: 8.33333333%;
+  }
+}
+
+@media (min-width: 1200px){
+  .offset-xl-3 {
+      margin-left: initial;
+      margin-right: 25%;
+  }
+}
+
+.rbt-btn:hover.hover-icon-reverse .btn-text {
+  transition-delay: 0.1s;
+  transform: translateX(-23px);
+}
