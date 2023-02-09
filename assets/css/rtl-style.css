@@ -2,7 +2,9 @@
   direction: rtl;
 }
 
-/* General */
+/*----------------------------
+    General 
+------------------------------*/
 .text-start {
   text-align: right!important;
 }
@@ -134,7 +136,7 @@
 }
 
 /* ------------------------------
-    bootstrap 
+    Bootstrap 
 -------------------------------- */
 @media (min-width: 992px){
   .offset-lg-1 {
@@ -191,4 +193,17 @@ a.rbt-btn-link i, button.rbt-btn-link i, span.rbt-btn-link i{
 }
 .rbt-splash-service.no-translate{
   text-align: right;
+}
+
+/*--------------------------
+    Inner Page Layout Area  
+------------------------------*/
+.rbt-inner-page-layout-area .plan-offer-list-wrapper .plan-offer-list + .plan-offer-list {
+  margin-left: 0;
+  margin-right: 50px;
+}
+@media only screen and (max-width: 575px){
+  .rbt-inner-page-layout-area .plan-offer-list-wrapper .plan-offer-list + .plan-offer-list {
+      margin-right: -10px;
+  }
 }
