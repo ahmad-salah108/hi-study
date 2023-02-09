@@ -491,7 +491,7 @@
             });
 
             var swiper = new Swiper('.banner-splash-inner-layout-active', {
-                effect: 'cards',
+                effect: 'coverflow',
                 grabCursor: true,
                 clickable: true,
                 loop: true,
