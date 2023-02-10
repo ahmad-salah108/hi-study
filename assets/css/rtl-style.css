@@ -1,4 +1,4 @@
-*{
+* {
   direction: rtl;
 }
 
@@ -6,55 +6,80 @@
     General 
 ------------------------------*/
 .text-start {
-  text-align: right!important;
+  text-align: right !important;
 }
 .rbt-btn:hover.hover-icon-reverse .btn-text {
   transition-delay: 0.1s;
   transform: translateX(-23px);
 }
-.rbt-btn i{
+.rbt-btn i {
   padding: 0 6px 0 0;
 }
-.rbt-btn.hover-icon-reverse .btn-icon + .btn-icon i{
+.rbt-btn.hover-icon-reverse .btn-icon + .btn-icon i {
   padding: 0 0 0 6px;
 }
 
 /*----------------------------
     Mega Menu Options  
 ------------------------------*/
-.nav-quick-access li a i{
+.nav-quick-access li a i {
   padding: 0 0 0 7px;
 }
-.rbt-header .mainmenu-nav .mainmenu li.with-megamenu .rbt-megamenu .wrapper .mega-menu-item li a .rbt-badge-card{
+.rbt-header
+  .mainmenu-nav
+  .mainmenu
+  li.with-megamenu
+  .rbt-megamenu
+  .wrapper
+  .mega-menu-item
+  li
+  a
+  .rbt-badge-card {
   margin: 0 10px 0 0;
 }
-
+.rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu li ul.submenu {
+  right: 100%;
+  top: 0;
+  text-align: right;
+}
+.rbt-header .mainmenu-nav .mainmenu > li .submenu > li:hover > .submenu,
+.rbt-header .mainmenu-nav .mainmenu li.with-megamenu:hover .rbt-megamenu,
+.rbt-header .mainmenu-nav .mainmenu li.has-dropdown:hover > .submenu,
+.rbt-user-wrapper:hover .rbt-user-menu-list-wrapper,
+.rbt-category-menu-wrapper:hover .category-dropdown-menu,
+ul.rbt-dropdown-menu li:hover .sub-menu {
+  clip: rect(0px, 400vw, 300vh, -330px);
+}
 /*------------------------------
     Popup Menu Styles  
 --------------------------------*/
-.popup-mobile-menu .inner-wrapper .description{
+.popup-mobile-menu .inner-wrapper .description {
   padding: 0 0 0 18%;
 }
-.rbt-information-list li a i{
+.rbt-information-list li a i {
   margin-right: 0;
   margin-left: 10px;
 }
-.popup-mobile-menu .mainmenu .has-menu-child-item > a::after, .popup-mobile-menu .mainmenu .has-dropdown > a::after{
+.popup-mobile-menu .mainmenu .has-menu-child-item > a::after,
+.popup-mobile-menu .mainmenu .has-dropdown > a::after {
   right: initial;
   left: 0;
+}
+.cd-words-wrapper{
+  text-align: right;
 }
 
 /*-----------------------
     Service Area  
 ------------------------*/
-.service__style--1{
+.service__style--1 {
   text-align: right;
 }
 
 /*-------------------------------
     Layout Presentation
 -------------------------------*/
-.advance-tab-button-1 .tab-button-list .tab-button::before{
+.advance-tab-button-1 .tab-button-list .tab-button::before {
   left: auto;
   right: 0;
 }
@@ -62,7 +87,7 @@
 /*----------------------
     Rbt List Style  
 ------------------------*/
-.plan-offer-list li i{
+.plan-offer-list li i {
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -138,33 +163,33 @@
 /* ------------------------------
     Bootstrap 
 -------------------------------- */
-@media (min-width: 992px){
+@media (min-width: 992px) {
   .offset-lg-1 {
-      margin-left: initial;
-      margin-right: 8.33333333%;
+    margin-left: initial;
+    margin-right: 8.33333333%;
   }
   .offset-lg-2 {
     margin-left: initial;
     margin-right: 16.66666667%;
   }
 }
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
   .offset-xl-3 {
-      margin-left: initial;
-      margin-right: 25%;
+    margin-left: initial;
+    margin-right: 25%;
   }
 }
 
 /*-------------------------
     Accordion Area  
 --------------------------*/
-.rbt-accordion-style .card .card-header button{
+.rbt-accordion-style .card .card-header button {
   text-align: right;
 }
 .rbt-accordion-style.rbt-accordion-02 .card .card-header {
   padding: 0px 0px 20px 20px;
 }
-.rbt-accordion-style.rbt-accordion-02 .card .card-header button::before{
+.rbt-accordion-style.rbt-accordion-02 .card .card-header button::before {
   left: -20px;
   right: initial;
 }
@@ -172,38 +197,291 @@
 /*------------------------ 
     Call To Action Footer  
 --------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1599px){
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .rbt-splash-callto-action .inner {
-      background-position: center left -429px;
+    background-position: center left -429px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px){
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
   .rbt-splash-callto-action .inner {
-      background-position: center left -484px;
+    background-position: center left -484px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px){
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .rbt-splash-callto-action .inner {
-      background-position: center left -600px;
-      padding: 100px 30px 100px 100px;
+    background-position: center left -600px;
+    padding: 100px 30px 100px 100px;
   }
 }
-a.rbt-btn-link i, button.rbt-btn-link i, span.rbt-btn-link i{
+a.rbt-btn-link i,
+button.rbt-btn-link i,
+span.rbt-btn-link i {
   padding: 0 4px 0 0;
 }
-.rbt-splash-service.no-translate{
+.rbt-splash-service.no-translate {
   text-align: right;
 }
 
 /*--------------------------
     Inner Page Layout Area  
 ------------------------------*/
-.rbt-inner-page-layout-area .plan-offer-list-wrapper .plan-offer-list + .plan-offer-list {
+.rbt-inner-page-layout-area
+  .plan-offer-list-wrapper
+  .plan-offer-list
+  + .plan-offer-list {
   margin-left: 0;
   margin-right: 50px;
 }
-@media only screen and (max-width: 575px){
-  .rbt-inner-page-layout-area .plan-offer-list-wrapper .plan-offer-list + .plan-offer-list {
-      margin-right: -10px;
+@media only screen and (max-width: 575px) {
+  .rbt-inner-page-layout-area
+    .plan-offer-list-wrapper
+    .plan-offer-list
+    + .plan-offer-list {
+    margin-right: -10px;
   }
+}
+
+/*--------------------------
+    01-main-demo.html  
+------------------------------*/
+.rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu {
+  text-align: right;
+}
+.rbt-header .mainmenu-nav .mainmenu li.has-dropdown .submenu,
+.rbt-category-menu-wrapper .category-dropdown-menu,
+ul.rbt-dropdown-menu li .sub-menu {
+  left: initial;
+  right: 0;
+}
+.rbt-category-menu-wrapper .category-dropdown-menu{
+  text-align: right;
+}
+.rbt-category-menu-wrapper .category-dropdown-menu .category-menu-item .rbt-vertical-nav-content{
+  padding-left: 0;
+  padding-right: 20px;
+}
+.rbt-category-menu-wrapper .category-dropdown-menu .category-menu-item .rbt-vertical-nav{
+  border-right: none;
+  padding-right: 0;
+  border-left: 1px solid #e6e3f14f;
+  padding-left: 20px;
+}
+.rbt-minicart-wrapper .minicart-item .close-btn{
+  right: initial;
+  left: 0;
+}
+.rbt-minicart-wrapper .product-content{
+  padding-left: 0;
+  padding-right: 20px;
+}
+.rbt-btn:hover.icon-hover .btn-icon i{
+  transform: translateX(-7px);
+}
+.rbt-btn.icon-hover .btn-text{
+  transform: translateX(-7px);
+}
+.rbt-btn:hover.icon-hover .btn-text{
+  transform: translateX(7px);
+}
+.rbt-btn.icon-hover .btn-icon i{
+  transform: translateX(7px);
+  padding: 0;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .rbt-user-wrapper .rbt-user-menu-list-wrapper {
+    right: auto;
+    left: 0;
+  }
+}
+@media only screen and (max-width: 767px){
+  .rbt-user-wrapper .rbt-user-menu-list-wrapper {
+    right: auto;
+    left: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .rbt-user-wrapper .rbt-user-menu-list-wrapper {
+    right: auto;
+    left: 0;
+  }
+}
+.rbt-admin-profile .admin-thumbnail {
+  margin-right: 0;
+  margin-left: 12px;
+}
+.rbt-user-menu-list-wrapper .user-list-wrapper li a i{
+  margin-right: 0;
+  margin-left: 7px;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1599px){
+  .rbt-banner-1 .content .inner .description {
+      padding-right: 0;
+      padding-left: 18%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .rbt-banner-1 .content .inner .description {
+    padding-right: 0;
+    padding-left: 26%;
+  }
+}
+.rbt-banner-1 .content .shape-wrapper{
+  left: auto;
+  right: -40px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .rbt-banner-1 .content .shape-wrapper {
+    left: auto;
+    right: 0;
+  }
+}
+.rbt-banner-1 .content .shape-wrapper .hero-bg-shape-1 {
+  left: auto !important;
+  right: 5px !important;
+}
+.rbt-banner-1 .content .shape-wrapper .hero-bg-shape-2 {
+  left: auto !important;
+  right: 70px !important;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .rbt-banner-1 .content .banner-card {
+    right: auto;
+    left: 7%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .rbt-banner-1 .content .banner-card {
+    right: auto;
+    left: 40px;
+  }
+}
+.rbt-about-area.bg-color-white.rbt-section-gapTop.pb_md--80.pb_sm--80.about-style-1 .pl--50{
+  padding-left: 0 !important;
+  padding-right: 50px !important;
+}
+.about-style-1 .thumbnail-wrapper .thumbnail.image-1 {
+  left: auto;
+  right: -100px;
+}
+.about-style-1 .thumbnail-wrapper .thumbnail.image-2 {
+  right: auto;
+  left: 0;
+}
+.about-style-1 .thumbnail-wrapper .thumbnail.image-3 {
+  left: auto;
+  right: 150px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .about-style-1 .thumbnail-wrapper .thumbnail.image-1 {
+      right: 0;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .about-style-1 .thumbnail-wrapper .thumbnail.image-3 {
+      right: 88px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .about-style-1 .thumbnail-wrapper .thumbnail.image-1 {
+      right: 0;
+  }
+}
+.rbt-feature .icon{
+  margin-right: 0;
+  margin-left: 15px;
+}
+.rbt-team-tab-content .rbt-team-details{
+  padding-left: 0;
+  padding-right: 30px;
+}
+.read-more-btn.text-start.text-md-end,
+.load-more-btn.text-start.text-lg-end{
+  text-align: left !important;
+}
+@media (max-width: 768px){
+  .read-more-btn.text-start.text-md-end,
+  .load-more-btn.text-start.text-lg-end{
+      text-align: right !important;
+  }
+}
+.rbt-newsletter-area.newsletter-style-2.bg-color-primary.rbt-section-gap .row.row--15.mt--50{
+  direction: ltr;
+}
+@media (min-width: 992px){
+  .copyright-area.copyright-style-1.ptb--20 .text-lg-start {
+      text-align: right!important;
+  }
+}
+.copyright-style-1 .copyright-link li + li::after{
+  left: auto;
+  right: -1px;
+}
+.rbt-category-sidemenu .rbt-vertical-nav-list-wrapper .vertical-nav-item > a::after{
+  right: auto;
+  left: 0;
+}
+
+/*--------------------------
+    03-online-school.html  
+------------------------------*/
+.profile-share .more-author-text{
+  margin-left: 0;
+  margin-right: 20px;
+}
+.profile-share a:nth-child(2) {
+  margin-left: 0;
+  margin-right: -12px;
+}
+.profile-share a:nth-child(3) {
+  margin-left: 0;
+  margin-right: -12px;
+}
+.rbt-list-style-3 li i{
+  padding-right: 0;
+  padding-left: 10px;
+}
+.single-counter + .single-counter::before{
+  left: auto;
+  right: 0;
+}
+.rbt-card.card-list-2.event-list-card .rbt-card-body {
+  padding-left: 0;
+  padding-right: 25px;
+}
+.rbt-cta-5 .title {
+  padding-right: 0;
+  padding-left: 26%;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+  .rbt-cta-5 .title {
+    padding-right: 0;
+    padding-left: 10%;
+  }
+}
+.footer-style-1 .newsletter-form .right-icon::after{
+  right: auto;
+  left: 0;
+}
+
+/*--------------------------
+    13-university-classic.html  
+------------------------------*/
+.rbt-user-wrapper.right-align-dropdown .rbt-user-menu-list-wrapper{
+  right: auto;
+  left: 0;
+}
+.advance-tab-button-1 .tab-button-list .tab-button::after{
+  left: auto;
+  right: 100%;
+}
+.advance-tab-button-1 .tab-button-list .tab-button.active::after{
+  transform: rotate(180deg);
+}
+.rbt-card.card-list-2 .rbt-card-body{
+  padding-left: 0;
+  padding-right: 30px;
+}
+a.transparent-button i{
+  padding-left: 0;
+  padding-right: 4px;
 }

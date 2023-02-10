@@ -144,7 +144,7 @@
 
         eduSwiperActive: function () {
             var swiper = new Swiper('.banner-swiper-active', {
-                effect: 'cards',
+                effect: 'coverflow',
                 grabCursor: true,
                 pagination: {
                     el: '.rbt-swiper-pagination',
